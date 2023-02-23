@@ -4,71 +4,113 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <link href="images/css/style.css" rel="stylesheet">
-    <title>The Diabeater</title>
+    <script src="https://kit.fontawesome.com/efc32b1f9a.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>The Diabeater</title>
+ 
+    
   </head>
 
   <body>
      <!---START Logo Navbar-->
-    <nav class="navbar justify-content-center" style="background-color:#a6beba" >
-    <div class="container-fluid">
+    <nav class="navbar justify-content-center sticky-top" style="background-color:#a6beba" >
+    <div class="container-fluid flex-column flex-row justify-content-between">
       <a class="navbar-brand" href="#">
-        <img src="images/THE DIABEATER Logo.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-center fs-1 fw-bold border">
-      South Asians making healthy lifestyle decisions</a>
+        <img src="images/THE DIABEATER Logo.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-center text-wrap fs-1 fw-bold border">
+      For South Asians to make healthy lifestyle decisions</a>
     </div>
   </nav>
  <!---END Logo Navbar-->
-
+ <div class="row border-bottom border-5"></div>
  <!--START Carousel of FACTS -->
- <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div class="card-deck row row-cols-3 row-cols-md-3 g-1">
+  <div class="card">
+    <img src="images/thali.jpg" class="card-img-top img-fluid" alt="...">
+    <div class="card-body background-color:#a6beba">
+      <h5 class="card-title">RISK</h5>
+      <p class="card-text">People from South Asian communities are upto <strong>SIX TIMES</strong> more likely to have Type 2 Diabetes than the general population.</p>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/Indian family eating a lot of food.webp" class="d-block w-100 h-50" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>RISK</h2>
-          <p class="fs-1">People from South Asian communities are upto <strong>SIX TIMES</strong> more likely to have Type 2 Diabetes than the general population.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/diabete complications.jpg" class="d-block w-100 h-50" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2></h2>
-          <p class="fs-1"></p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/healthy family.jpg" class="d-block w-100 h-50" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>SOLUTION</h2>
-          <p class="fs-1">Diabetes is a lifestyle disease.  <strong>CHANGING YOUR LIFESTYLE</strong> can reduce the risk of diabetes.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-<!--END Carousel of FACTS -->
 
+  <div class="card">
+    <img src="images/complications.jpg" class="card-img-top img-fluid" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">EFFECTS</h5>
+      <p class="card-text">Diabetes can lead to serious health complications including heart disease, chronic kidney disease, nerve damage, and other problems with feet, oral health, vision, hearing, and mental health.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/healthy family.jpg" class="card-img-top img-fluid" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">SOLUTION</h5>
+      <p class="card-text">Learn how to prevent or delay diaabetes and its complications and improve your overall health.  The Diabeater is your helper tool to transform yor health.</p>
+    </div>
+  </div>
+</div>
+<!--END Carousel of FACTS -->
+<div class="row border-bottom border-5"></div>
 <!--START SURVEY -->
 
     <h1>Hello, world!</h1>
 
 
+<!--END SURVEY -->
+ 
+  </div>
+</div>
+<!--START TOOL ICONS -->
+
+<!--END TOOL ICONS -->
+
+<div class="container px-4 py-5" id="hanging-icons">
+  <h2 class="pb-2 border-bottom">More Diabeater Tips</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+        <i class="fa-solid fa-glass-water-droplet"></i>
+        <i class="fa-solid fa-glass-water-droplet"></i>
+      </div>
+      <div>
+        <h3 class="fs-2">Hydrate</h3>
+        <p>3 litres of water daily.</p>
+        <p>Sometimes we are just thirsty, not hungry.</p>
+        <a href="#" class="btn btn-primary">
+          Primary button
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+        <i class="fa-solid fa-dumbbell"></i>
+      </div>
+      <div>
+        <h3 class="fs-2">Exercise</h3>
+        <p>Walk 10,000 steps every day.</p>
+        <p>Add in fun exercises, take group exercise classes.</p>
+        <a href="#" class="btn btn-primary">
+          Primary button
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+        <i class="fa-solid fa-bed"></i>
+      </div>
+      <div>
+        <h3 class="fs-2">Sleep</h3>
+        <p>8 hours of sound sleep.</p>
+        <p>In a quiet dark room. No smartphones nearby.</p>  
+        <a href="#" class="btn btn-primary">
+          Primary button
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-
+    <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

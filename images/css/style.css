@@ -1,4 +1,11 @@
-body {
+.navbar {
     color: #62314a;
     background-color: red;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
