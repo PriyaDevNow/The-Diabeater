@@ -30,21 +30,28 @@ function submitInfo() {
             alert("RED ALERT - your BMI is " + bmi + ". You need to urgently lose weight. Here's your new diet.")
         } else if ((bmi > 23) && (waist < 90)) {
             alert("Your BMI is " + bmi + ". You need to lose weight. Change your diet.")
-        } else if ((bmi < 23) && (waist => 90)) {
-            alert("Check your stats and input again.")
+        } else if ((bmi < 23) && (waist > 90)) {
+            alert("Your BMI is " + bmi + ". But check your stats and input again.")
         } else if ((bmi < 23) && (waist < 90)) {
-            alert("Your are doing great!  Keep on going and check in regularly.")
+            alert("Your BMI is " + bmi + ". You are doing great!  Keep on going and check in regularly.")
         } else {
             alert("unchecked male condition")
         }
+    } else {
+        if ((bmi > 23) && (waist => 80)) {
+            alert("RED ALERT - your BMI is " + bmi + ". You need to urgently lose weight. Here's your new diet.")
+        } else if ((bmi > 23) && (waist < 80)) {
+            alert("Your BMI is " + bmi + ". You need to lose weight. Change your diet.")
+        } else if ((bmi < 23) && (waist > 80)) {
+            alert("Your BMI is " + bmi + ". But check your stats and input again.")
+        } else if ((bmi < 23) && (waist < 80)) {
+            alert("Your BMI is " + bmi + ". You are doing great!  Keep on going and check in regularly.")
+        } else {
+            alert("unchecked female condition")
+        }
     }
 
-
-
-
-
-
-
+    
 }
 
 
