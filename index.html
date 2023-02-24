@@ -15,14 +15,12 @@
 </head>
 
 <body>
-  <!---START Logo Navbar-->
-  <nav class="navbar justify-content-center sticky-top" style="background-color:#a6beba">
-    <div class="container-fluid flex-column flex-row justify-content-between">
-      <a class="navbar-brand text-wrap fw-bold" style="color:#62314a" href="#">
-        <img src="images/THE DIABEATER Logo.png" alt="Logo" width="100" height="80"
-          class="d-inline-block align-text-center border rounded border-dark">
-        Helping South Asians make healthy lifestyle decisions to BEAT DIABETES</a>
-    </div>
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color:#a6beba;">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/THE DIABEATER Logo.png" alt="Logo" width="100" height="80">
+    </a>
+    <h2 class="tagline navbar-text text-wrap fw-bold" style="color:#62314a">Helping South Asians make healthy lifestyle
+      decisions to BEAT DIABETES</h2>
   </nav>
   <!---END Logo Navbar-->
   <div class="row border-bottom border-5"></div>
@@ -31,7 +29,7 @@
   <div class="card-deck row row-cols-4 row-cols-md-3 g-1">
 
     <div class="card" style="background-color:#62314a">
-      <img src="images/thali.jpg" class="card-img-top img-fluid" alt="...">
+      <img src="assets/images/thali.jpg" class="card-img-top img-fluid" alt="...">
       <div class="card-body" style="color:#ebbad2">
         <h5 class="card-title">RISK</h5>
         <p class="card-text">People from South Asian communities are upto <strong>SIX TIMES</strong> more likely to have
@@ -47,13 +45,13 @@
     <div class="card" style="background-color:#62314a">
       <div class="card-body" style="color:#ebbad2">
         <h5 class="card-title">EFFECTS</h5>
-        <p class="card-text">Diabetes can lead to serious health complications including heart disease, chronic kidney
-          disease, nerve damage, and other problems with feet, oral health, vision, hearing, and mental health.</p>
+        <p class="card-text">Diabetes can lead to serious health complications.</p>
+        <p>This includes heart disease, chronic kidney disease, nerve damage, and other problems with feet, oral health, vision, hearing, and mental health.</p>
       </div>
-      <img src="images/complications.jpg" class="card-img-top img-fluid" alt="...">
+      <img src="assets/images/complications.jpg" class="card-img-top img-fluid" alt="...">
     </div>
     <div class="card" style="background-color:#62314a">
-      <img src="images/healthy family.jpg" class="card-img-top img-fluid" alt="...">
+      <img src="assets/images/healthy family.jpg" class="card-img-top img-fluid" alt="...">
       <div class="card-body" style="color:#ebbad2">
         <h5 class="card-title">SOLUTION</h5>
         <p class="card-text">Learn how to prevent or delay onset of diabetes and its complications and improve your
@@ -69,59 +67,57 @@
   <div class="row border-bottom border-5"></div>
   <!--START SURVEY -->
 
-  <div class="container col-lg-12 d-flex border border-dark border-5" style="background-color: #d9b19b; color: #62314a;"> 
+  <div class="container col-lg-12 d-flex border border-dark border-5"
+    style="background-color: #d9b19b; color: #62314a;">
 
     <div class="row col-xs-8" style="background-color:#a6beba">
 
 
       <form>
-        <div class="row my-5 justify-content-center fs-2 fw-bold">LET'S CHECK YOUR STATS</div>
+        <div class="row my-5 justify-content-center fs-2 fw-bold">
+          <h2>CHECK YOUR STATS</h2>
+        </div>
         <div class="row my-3">
           <label for="height" class="col-sm-2 col-form-label justify-content-center pt-0">Height (cm)</label>
           <div class="col-sm-10" style="width: fit-content">
-            <input type="text" class="form-control" id="height">
+            <input type="text" class="form-control" id="height" value="">
           </div>
         </div>
         <div class="row my-3">
           <label for="weight" class="col-sm-2 col-form-label justify-content-center pt-0">Weight (kg)</label>
           <div class="col-sm-10" style="width: fit-content">
-            <input type="text" class="form-control" id="weight">
+            <input type="text" class="form-control" id="weight" value="">
           </div>
         </div>
         <div class="row my-3">
           <label for="waist" class="col-sm-2 col-form-label justify-content-center pt-0">Waist (cm)</label>
           <div class="col-sm-10" style="width: fit-content">
-            <input type="text" class="form-control" id="waist">
+            <input type="text" class="form-control" id="waist" value="">
           </div>
         </div>
 
-        <fieldset class="row my-3">
+        <div class="row my-3">
           <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
           <div class="col-sm-10">
-            <div class="form-check-inline">
-              <input class="form-check-input" type="checkbox" name="male gridChecks" id="gridRChecks1" value="option1"
-                checked>
-              <label class="form-check-label" for="gridChecks1">
-                Male
-              </label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="maleFemale" id="female" value="Female"/>
+              <label class="form-check-label" for="female"> Female </label>
             </div>
-            <div class="form-check-inline">
-              <input class="form-check-input" type="checkbox" name="female gridChecks" id="gridChecks2" value="option2">
-              <label class="form-check-label" for="gridChecks2">
-                Female
-              </label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="maleFemale" id="male" value="Male"/>
+              <label class="form-check-label" for="male"> Male </label>
             </div>
           </div>
-        </fieldset>
-    
+        </div>
 
-    <button type="submit" class="btn btn-primary justify-content-center">Submit</button>
-    <div id="results"></div>
-  </form>
+
+        <button type="submit" id="btn-submit" class="btn btn-primary justify-content-center">Submit</button>
+        <div id="results"></div>
+      </form>
+    </div>
   </div>
-  </div>
-  
- 
+
+
 
 
   <!--END SURVEY -->
@@ -132,37 +128,39 @@
 
 
 
- 
+
 
   <div class="container px-4 py-5" style="background-color:#eee9f3; color: #62314a;" id="hanging-icons">
-    <h2 class="pb-2 border-bottom">MORE DIABEATER TIPS</h2>
+    <h2 class="border-bottom">MORE DIABEATER TIPS</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
         <div
-          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3" style="background-color:#ebbad2">
+          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3"
+          style="background-color:#ebbad2">
           <i class="fa-solid fa-glass-water-droplet"></i>
           <i class="fa-solid fa-glass-water-droplet"></i>
         </div>
         <div>
           <h3 class="fs-2">Hydrate</h3>
-          <p>3 litres of water daily.</p>
+          <p>Drink 3 litres of water daily.</p>
           <p>Sometimes we are just thirsty, not hungry.</p>
-          <a href="#" class="btn btn-primary">
-            Primary button
+          <a href="https://www.aqualertapp.com/"  target=”_blank” class="btn btn-light">
+            Daily Water Tracker Reminder
           </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div
-          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3" style="background-color: #ebbad2;">
+          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3"
+          style="background-color: #ebbad2;">
           <i class="fa-solid fa-dumbbell"></i>
         </div>
         <div>
           <h3 class="fs-2">Exercise</h3>
-          <p>Walk 10,000 steps every day.</p>
+          <p>Burn those calories by walking 10,000 steps every day.</p>
           <p>Add in fun exercises, do group exercise.</p>
-          <a href="#" class="btn btn-primary">
-            Primary button
+          <a href="https://www.mypacer.com/" target="_blank" class="btn btn-light">
+            Step Counter
           </a>
         </div>
       </div>
@@ -173,16 +171,16 @@
         </div>
         <div>
           <h3 class="fs-2">Sleep</h3>
-          <p>8 hours of sound sleep.</p>
-          <p>In a quiet dark room, no smartphones nearby.</p>
-          <a href="#" class="btn btn-primary">
-            Primary button
+          <p>Get 8 hours of sound sleep.</p>
+          <p>In a dark room, no smartphones nearby.</p>
+          <a href="https://calmradio.com/" target="_blank" class="btn btn-light">
+            Sleep Aid
           </a>
         </div>
       </div>
     </div>
-  </div> 
-  
+  </div>
+
   <!--END TOOL ICONS -->
 
 
