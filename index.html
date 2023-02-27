@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/efc32b1f9a.js" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   
   <link rel="stylesheet" href="assets/css/style.css">
   <title>The Diabeater</title>
 
@@ -16,13 +16,13 @@
 
 <body>
 
- <!---START Logo Navbar-->
+  <!---START Logo Navbar-->
 
   <nav class="navbar navbar-expand-lg sticky-top" style="background-color:#a6beba;">
     <a class="navbar-brand" href="#">
       <img src="assets/images/THE DIABEATER Logo.png" alt="Logo" width="100" height="80">
     </a>
-    <h2 class="tagline navbar-text text-wrap fw-bold" style="color:#62314a">Helping South Asians make healthy lifestyle
+    <h2 class="tagline navbar-text text-wrap fw-bold justify-content-center mx-auto" style="color:#62314a">Helping South Asians make healthy lifestyle
       decisions to BEAT DIABETES</h2>
   </nav>
   <!---END Logo Navbar-->
@@ -30,11 +30,12 @@
   <div class="row border-bottom border-5"></div>
 
   <!--START CARDS of FACTS -->
-  <div class="card-deck row row-cols-4 row-cols-md-3 g-1">
+  <div class="card-deck row row-cols-3 row-cols-md-3 g-1">
 
-    <div class="card" style="background-color:#62314a">
-      <img src="assets/images/thali.jpg" class="card-img-top img-fluid" alt="...">
-      <div class="card-body" style="color:#ebbad2">
+    <div class="card">
+      <br>
+      <img src="assets/images/thali.jpg" class="card-img-top img-fluid" alt="Plate of high fat and high carb food">
+      <div class="card-body">
         <h5 class="card-title">RISK</h5>
         <p class="card-text">People from South Asian communities are upto <strong>SIX TIMES</strong> more likely to have
           Type 2 Diabetes than the general population.</p>
@@ -46,100 +47,109 @@
       </div>
     </div>
 
-    <div class="card" style="background-color:#62314a">
-      <div class="card-body" style="color:#ebbad2">
+    <div class="card pb-4">
+      <div class="card-body">
+        <br>
         <h5 class="card-title">EFFECTS</h5>
         <p class="card-text">Diabetes can lead to serious health complications.</p>
-        <p>This includes heart disease, chronic kidney disease, nerve damage, and other problems with feet, oral health, vision, hearing, and mental health.</p>
+        <p>This includes heart disease, chronic kidney disease, nerve damage, and other problems with feet, oral health,
+          vision, hearing, and mental health.</p>
       </div>
-      <img src="assets/images/complications.jpg" class="card-img-top img-fluid" alt="...">
+      <img src="assets/images/complications.jpg" class="card-img-btm img-fluid" alt="Complications from diabetes chart">
     </div>
-    <div class="card" style="background-color:#62314a">
-      <img src="assets/images/healthy family.jpg" class="card-img-top img-fluid" alt="...">
-      <div class="card-body" style="color:#ebbad2">
+    <div class="card">
+      <br>
+      <img src="assets/images/healthy family.jpg" class="card-img-top img-fluid" alt="3 adults and 2 children happy running holding hands">
+      <div class="card-body">
         <h5 class="card-title">SOLUTION</h5>
         <p class="card-text">Learn how to prevent or delay onset of diabetes and its complications and improve your
           overall health.</p>
         <p>The Diabeater is your digital tool to transform your health.</p>
         <p>The Diabeater is based on scientific evidence. Follow its recommendations and you are guaranteed results.</p>
-        <p><strong>ARE YOU READY TO TAKE ON THE DIABEATER?</strong></p>
+        
       </div>
     </div>
   </div>
   <!--END CARDS of FACTS -->
 
   <div class="row border-bottom border-5"></div>
-  <!--START SURVEY -->
+  <!--START FORM -->
 
-  <div class="container"
-    style="background-color: #d9b19b; color: #62314a;">
-
-    <div class="row col-xs-8" style="background-color:#d9b19b">
-
-
-      <form class="justify-content-center border-5 border-dark">
-        <div class="row my-5 justify-content-center fs-2 fw-bold">
-          <h2>CHECK YOUR STATS</h2>
+  <div class="container" style="background-color:#a6beba">
+    <div class="row">
+      <div class="col-sm-12">
+      <form class="survey">
+        <div class="row my-5 fs-2 fw-bold">
+          <h2>CHECK YOUR RISK OF GETTING DIABETES</h2>
+          <h3>AND WHAT TO DO ABOUT IT</h3>
+          
         </div>
         <div class="row my-3">
-          <label for="height" class="col-sm-2 col-form-label justify-content-center pt-0">Height (cm)</label>
-          <div class="col-sm-10" style="width: fit-content">
-            <input type="text" class="form-control" id="height" value="">
+          <label for="height" class="col-sm-6 col-form-label pt-0 fs-4">Height (cm)</label>
+          <div class="col-md-12 d-flex justify-content-center justify-content-md-start" style="width: fit-content">
+            <input type="number" min="0" class="form-control" id="height" value="">
           </div>
         </div>
         <div class="row my-3">
-          <label for="weight" class="col-sm-2 col-form-label justify-content-center pt-0">Weight (kg)</label>
-          <div class="col-sm-10" style="width: fit-content">
-            <input type="text" class="form-control" id="weight" value="">
+          <label for="weight" class="col-sm-6 col-form-label pt-0 fs-4">Weight (kg)</label>
+          <div class="col-sm-6" style="width: fit-content">
+            <input type="number" min="0" class="form-control" id="weight" value="">
           </div>
         </div>
         <div class="row my-3">
-          <label for="waist" class="col-sm-2 col-form-label justify-content-center pt-0">Waist (cm)</label>
-          <div class="col-sm-10" style="width: fit-content">
-            <input type="text" class="form-control" id="waist" value="">
+          <label for="waist" class="col-sm-6 col-form-label pt-0 fs-4">Waist (cm)</label>
+          <div class="col-sm-6" style="width: fit-content">
+            <input type="number" min="0" class="form-control" id="waist" value="">
           </div>
         </div>
 
         <div class="row my-3">
-          <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
-          <div class="col-sm-10">
+          <legend class="col-form-label col-sm-6 pt-0 fs-4">Gender</legend>
+          <div class="col-sm-6" style="width:min-content;">
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="maleFemale" id="female" value="Female"/>
-              <label class="form-check-label" for="female"> Female </label>
+              <input class="form-check-input" style="background-color:#62314a" type="radio" name="maleFemale" id="female" value="Female" />
+              <label class="form-check-label fs-5" for="female">Female </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="maleFemale" id="male" value="Male"/>
-              <label class="form-check-label" for="male"> Male </label>
+              <input class="form-check-input" style="background-color: #62314a;" type="radio" name="maleFemale" id="male" value="Male" />
+              <label class="form-check-label fs-5"  for="male">Male </label>
             </div>
           </div>
         </div>
 
 
-        <button type="submit" id="btn-submit" class="btn btn-primary mb-5">Submit</button>
-        <div id="results"></div>
+        <button type="button" id="mySubmit" class="btn mb-5 fs-2" style="background-color: #62314a; color: #d9b19b;">Submit</button>
+        
+        <div class="feedback-given pb-2 fw-bold fs-4">
+          <p id="feedback"></p>
+          <br>
+          <p id="diet"></p>
+          <br>
+          <p id="comment"></p>
+        </div>
+
       </form>
+
     </div>
+    </div>
+
+
+
   </div>
 
-
-
-
-  <!--END SURVEY -->
+  <!--END FORM -->
 
   <div class="row border-bottom border-5"></div>
 
-  <!--START TOOL ICONS -->
+  <!--START TIPS ICONS -->
 
-
-
-
-  <div class="container px-4 py-5" style="background-color:#eee9f3; color: #62314a;" id="hanging-icons">
-    <h2 class="border-bottom">MORE DIABEATER TIPS</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+  <div class="px-5 py-2" style="background-color:#eee9f3; color: #62314a;" id="hanging-icons">
+    <h2 style="text-align: center;">MORE SIMPLE HEALTH TRANSFORMING TIPS</h2>
+    <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
         <div
           class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3"
-          style="background-color:#ebbad2">
+          style="background-color:#ebbad2; color:#62314a;">
           <i class="fa-solid fa-glass-water-droplet"></i>
           <i class="fa-solid fa-glass-water-droplet"></i>
         </div>
@@ -147,36 +157,36 @@
           <h3 class="fs-2">Hydrate</h3>
           <p>Drink 3 litres of water daily.</p>
           <p>Sometimes we are just thirsty, not hungry.</p>
-          <a href="https://www.aqualertapp.com/"  target=”_blank” class="btn btn-light">
-            Daily Water Tracker Reminder
+          <a href="https://www.aqualertapp.com/" target=”_blank” class="btn" style="background-color: #62314a; color: #ebbad2;">
+            Water Reminder
           </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div
           class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3"
-          style="background-color: #ebbad2;">
+          style="background-color: #ebbad2; color: #62314a;">
           <i class="fa-solid fa-dumbbell"></i>
         </div>
         <div>
           <h3 class="fs-2">Exercise</h3>
-          <p>Burn those calories by walking 10,000 steps every day.</p>
+          <p>Burn those calories.  Walk 10,000 steps daily.</p>
           <p>Add in fun exercises, do group exercise.</p>
-          <a href="https://www.mypacer.com/" target="_blank" class="btn btn-light">
+          <a href="https://www.mypacer.com/" target="_blank" class="btn" style="background-color: #62314a; color: #ebbad2;">
             Step Counter
           </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <div
-          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3" style="background-color: #ebbad2; color: #62314a;">
           <i class="fa-solid fa-bed"></i>
         </div>
         <div>
           <h3 class="fs-2">Sleep</h3>
-          <p>Get 8 hours of sound sleep.</p>
+          <p>Get 8 hours of sound sleep every night.</p>
           <p>In a dark room, no smartphones nearby.</p>
-          <a href="https://calmradio.com/" target="_blank" class="btn btn-light">
+          <a href="https://calmradio.com/" target="_blank" class="btn" style="background-color: #62314a; color: #ebbad2;">
             Sleep Aid
           </a>
         </div>
@@ -184,15 +194,33 @@
     </div>
   </div>
 
-  <!--END TOOL ICONS -->
+  <!--END TIPS ICONS -->
 
 
   <div class="row border-bottom border-5"></div>
+ <!--START FOOTER -->
 
-  <script src="assets/js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-  </script>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center border-top p-3 mx-auto" style="background-color: #a6beba;">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 lh-1">
+          <img src="assets/images/THE DIABEATER Logo.png" alt="Logo" width="70" height="56">
+        </a>
+        <span class="mb-3 mb-md-0 fw-muted" style="color:#62314a">© 2023 THE DIABEATER MOVEMENT</span>
+      </div>
+  
+      <ul class="nav col-md-4 list-unstyled d-flex justify-content-end">
+        <li class="ms-3"><a style="color:#62314a" href="#"><i class="fa-brands fa-twitter" width="50" height="50"></i></a></li>
+        <li class="ms-3"><a style="color:#62314a" href="#"><i class="fa-brands fa-instagram" width="50" height="50"></i></a></li>
+        <li class="ms-3"><a style="color:#62314a" href="#"><i class="fa-brands fa-square-facebook"  width="50" height="50"></i></a></li>
+      </ul>
+    </footer>
+
+ <!--END FOOTER -->
+
+
+
+   <script src="assets/js/script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
 </html>

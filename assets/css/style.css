@@ -1,5 +1,6 @@
 .body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #a6beba;
     
 }
 /* NAV */
@@ -18,30 +19,54 @@
 
 h2.tagline {
     font-size: 1.5rem;
-    margin: 0px;
+    margin: 0px; auto;
+    justify-content: center;
 }
-/* CARDS */
+/* CARDS of FACTS */
+.card {
+background-color: #62314a;
+}
+.card-body {
+color: #ebbad2;
+
+}
 .card-img-top {
     width: 100%;
     height: 30vw;
     object-fit: cover;
 }
 
+.card-img-btm {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+/* START TIPS ICONS */
 #hanging-icons {
     color: #62314a;
+    justify-content: center;
 }
 
 /* SURVEY */
 
+
 .survey {
-    border: 5px solid #62314a;
-    width: 400px;
-    margin: auto;
+    background-color: #d9b19b;
+    color: #62314a;
+    border: solid #62314a;
+    text-align: center;
+    justify-content: left;
+    font-weight: bold;
+    
+}
+
+.feedback-given {
+    color:#62314a;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
   }
 
-
-.container {
-    margin: auto;
-}
 
 
