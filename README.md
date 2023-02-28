@@ -96,35 +96,24 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 
 - The Diabeater website must be available on a wide range of devices due to the age range of the users being targetted. 
 - The site is to contain only essential information presented artistically using the best utility function for each page.  
-- As the information presented on each page will be different, the clever use of the chosen colour palette and styling is essential to make the site cohesive and attractive.
 - Text must be clear and legible on any sized device to allow the user access to all the information.  
 - Future development is to include the ability for a user to set up their account on The Diabeater.  Users will then have access to create their weekly diet plans within the parameters suggested by The Diabeater (this requires API integration of the Recipe database from Edamam) and view live prices for a shopping trolley made up of the main ingredients of the recipes in their chosen diet plan (this requires API integration to a major UK supermarket).   
   
 ### **3. Structure**  
 
 - The website is currrently set up as a single landing page with scroll down simple navigation.  
-- 
-- Similar to the design and layout to be accessible and functional, simple navigation and interactivity are essential. The website needs to provide information swiftly to all users.  
-- The colour palette was displayed as the background for the hero image on the landing page so the user became instantly familiar with it and so as to encourage users to stay on the website and go through it page by page.   
-- This is an information rich website. Thus, rounded corners have been used for styling sections so that the site is not only aesthetically attractive but it is easier to digest the information presented.  
-- The main information on all the pages remains the same on all devices which strengthen the site’s familiar and trusting feeling.  
-- In addition, the navigation bar and footer would be visible on every page and at every device size. However, the information displayed has been tailored for the main expected type of user of the device:
-- apartment owners are likely to use the desktop version so the navigation bar displays the Leaseholder Portal button which they can use to click into the Property Manager’s resident portal to access the Building policies and their service charge records;
-- potential new tenants and history lovers would use the mobile version so the footer displays only the address of the building.    
-- Easy to identify, clickable buttons and links with a consistent layout have been used in the navigation bar and footer. 
-- Any buttons or links had to clearly state their purpose and any design change upon action followed the flow of the overall aesthetic.  It would have been ideal to provide feedback once the form button was clicked but this was not possible since Javascript is beyond the scope of the technologies allowed for this project. 
+- The interactive form is halfway down the landing page and designed with Javascript to provide swift feedback to users.  The button on the form is easy to identify, its purpose clearly stated and large size so as to assist users of all ages and improve partipation rates.  sy to identify, clickable buttons and links with a consistent layout have been used in the navigation bar and footer.  
   
 ### **4. Skeleton**  
 
 - The site was developed to be simple, clear and educational.  
-- For the landing page, the logo, was to be top-left of every page, no matter the orientation or screen size.  
-- The simple, four-item navigation bar of 'Home', 'The Cobalt Building', ‘Location’ and 'History', is situated always in the centre of the navigation bar.  A mouse hover feature is on each item which turns the text from blue to white. When item is clicked the text turns and stays light grey thus identifying the active page.
-- A large, clear hero image of the Cobalt Building dominates the landing page with its name at the top left in translucent style visible.   
-- Scrolling down the page introduces the visitor to a brief, three-piece of information section about the other pages of the website. Images are visible on one side with sound-byte headed text on the other side.  The images are arranged in a diametric fashion.  
-- The page ends with the footer, stating information in four columns, the address of the building, the contact information for the Resident Management Company and the Property Manager for the building, social media links and acknowledgment of the credible sources used to compile the history section of the site.  Under this is a copyright label and the year of site build at the bottom left corner.
-- For The Cobalt Building page, the navigation bar and footer remain as before. Between these lies a heading of the page and below it - in masonry format - are the photos of an apartment’s interiors and building exterior as welll as text describing the various attributes of the building.  Information from the marketing brochure for the building and a quote from the Lord Mayor in relation to the building are highlighted.    
-- For the Location page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description of the next section which shows places around the Cobalt Building grouped into 4 categories.  These are arranged 2 categories in each of 2 rwos.  Each category is shown with an icon and text. Underneath this is an interactive Google Map with the building location pinned. There is an option to enlarge the map in a new window and find directions.  
-- For the History page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description. A stylised vertical timeline has been used which shows an image on one side and an image on the other.  A central dot separates the two sides.  This is followed in diametric fashion for 6 significant periods when major changes occurred in this area from 1 AD to date.   
+- It is kept to one landing page style only.  
+- The navbar contains a centred logo with a tag line underneath it.
+- The next section highlights information about diabetes set out in 3 card styles with image top and text bottom - pattern reversed for the middle card.  
+- This leads to the form to be completed by the user and empty space which gives feedback.
+- The next section sets out examples of diabetes-beating diets and other helpful tips.  
+- The landing page ends with the footer, which shows the logo and copyright label on the left and the social media links on the righ.
+   
 
 ### Wireframes  
 <details open>
@@ -135,37 +124,27 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 
 ### **5. Surface**  
 
-- A design was created that allowed a consistent flow throughout the four-page website.   
-- A palette of blues and yellows was generated which matched the external facade of the Cobalt Building - yellow rendering and bricks and cobalt blue balconies.  All the colours were used on each page.      
-- A clean, sans-serif font, 'Montserrat' was used in a medium weight to provide legible text at any size. 
-- Corners on all elements were rounded to maintain a soft feel to a hard brick subject matter. 
-- Overall, the design was intended to create and foster a feeling of new discovery with the unveiling of its rich past and a deep sense of belonging to the present and in particular to the Cobalt Building.  This would attract users to physically come and see the building.    
- 
----   
-  
+- A design was created that allowed a simple consistent fluid information flow down the landing page.     
+- A palette of colours evoking a healthy diet was chosen as the main method to beat diabetes is through changing one's diet. 
+- The Quicksand font is a display sans serif with rounded terminals in regular weight was used which is easy to read gives a soft inviting feel to a subject most people want ignore/put on the bottom shelf.   
   
 ## Design  
 
 ### **Color Scheme**  
 
-- I used [Coolors](https://coolors.co/) to create a striking palette from the complementary colours of blue and yellow which capture the sense of pride and significant meaning that the site is conveying.  I combined these with an off-white shade that contrasted beautifully.
-  
-![Colour theme swatches](docs/coolors.co_palette_ff9f1c-ffbf69-00b4d8-0077b6-03045e%20(2).png)  
-  
-- I experienced an issue with the contrast ratio when putting lengthy blue (#03045E) text against the yellow (#FFBF69) background on the History page.  So I switched the yellow to the off-white (#e5edf5) which then significantly improved the accessibility of my site. The contrast ratio as measured on [TPGI website](https://www.tpgi.com/color-contrast-checker/) showed the WCAG contrast ratio increasing from 10.9.1 to 15.1 from this change.
+- I did a Google search to identify the current vogue 'diet' colors and then used [Adobe Color](https://www.adobe.com/uk/products/color.html) to generate the palette used in The Diabeater.  
 
-![Colour contrast ratio for History Page](docs/Contrast%20New.png)  
-  
-- [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) provided this fantastic resource for checking how accessible your colours are. I submitted my palette to the [Color Blind Safe](https://color.adobe.com/create/color-accessibility) check to find they passed this test also.  
+![Colour theme swatches](.docs/AdobeColor-My Color Theme (2).jpg) 
 
-![Color Blind Safe Check](docs/Color%20Blind%20Safe.png)
+- An integrated play of 4 main colours of the colour palette was done throughout the landing page and one colour reserved as the background colour for the logo.  These pastel colours are soothing and encouraging and totally captivate the user to make transformational changes - even those who've only had a fleeting thought on how to fight the diabetes disease.  
+
   
 ### **Typography**  
   
-- [Google Fonts](https://fonts.google.com/) was used to import the fonts 'Montserrat'.  The Montserrat font has a geometric sans-serif typeface and it was inspired by posters, signs and painted windows from the first half of the twentieth century, seen in the historic Montserrat neighbourhood in Buenos Aires.  I therefore felt it was appropriate to convey the architectural and history aspects of the website.  
-- I used the [Figma font pairing selector](https://www.figma.com/google-fonts/) to help me choose the Klara font to pair with Montserrat for use in lengthier text bodies. However, I chose to stick with Montserrat.  This would keep the font consistent across the website given the aim was not to make the website over-wordy. 
+- [Google Fonts](https://fonts.google.com/) was used to import the font 'Quicksand'.  The Quicksand font is a display sans-serif font so it is eye-catching and draws the user through the page/form and feedback. The regular font weight is used.
   
-![google Fonts Montserrat](docs/fonts.google.com_specimen_Montserrat_preview.text%3DMontserrat%26preview.text_type%3Dcustom.png)
+![Google Fonts Quicksand](docs/fonts.google.com_specimen_Quicksand.png)
+
         
 ### **Imagery**  
   
