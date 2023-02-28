@@ -3,6 +3,7 @@
     background-color: #a6beba;
     
 }
+
 /* NAV */
 .navbar .navbar-nav .nav-link {
     font-size: 1.1em;
@@ -61,12 +62,17 @@ color: #ebbad2;
     
 }
 
+
 .feedback-given {
     color:#62314a;
     font-size: large;
     font-style: italic;
     font-weight: bold;
-  }
+}
 
-
+.diettype {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
 

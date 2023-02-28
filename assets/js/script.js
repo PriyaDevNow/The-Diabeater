@@ -2,11 +2,13 @@
 /*Global variable */
 
 var diets = [
-    "RECOMMENDED DIET: 12 weeks; No wheat/fried foods/alcohol; 1000 daily calories; Macros - 40% protein:30% fat:30% carbs",
-    "RECOMMENDED DIET: 12 weeks; No wheat/fried foods/alcohol; 1200 daily calories; Macros - 30% protein:30% fat:30% carbs",
-    "RECOMMENDED DIET: 12 weeks; Intermittent fasting: 16/8; 1000 daily calories; Macros - 40% protein:30% fat:30% carbs",
-    "RECOMMENDED DIET: 12 weeks; 1000 daily calories; Macros - 40% protein:30% fat:30% carbs",
+    "RECOMMENDED DIET: 12 weeks; No wheat/rice/cheeses/fried foods/added sugar/alcohol; 1000 daily calories. Click below to see your sample weekly diet plan.",
+    "RECOMMENDED DIET: 12 weeks; No wheat/rice/cheeses/fried foods/added sugar/alcohol; 1200 daily calories. Click below to see your sample weekly diet plan.",
+    "RECOMMENDED DIET: 12 weeks; Intermittent fasting: 16/8; 1000 daily calories. Click below to see your sample weekly diet plan.",
+    "RECOMMENDED DIET: 12 weeks; 1000 daily calories. Click below to see your sample weekly diet plan.",
 ];
+
+
 
 /* Form submit */
 
@@ -34,9 +36,9 @@ function submitInfo() {
 
     if (sex == "Male") {
         if ((bmi > 23) && (waist => 90)) {
-            myMessage = "RED ALERT - your BMI is " + bmi + "! You are at a high risk of getting diabetes. You need to urgently lose weight. Please see your new diet suggestion below."
+            myMessage = "RED ALERT - your BMI is " + bmi + "! You are at a high risk of getting diabetes. You need to urgently lose weight. Follow the recommended diet plan below."
         } else if ((bmi > 23) && (waist < 90)) {
-            myMessage = "Your BMI is " + bmi + "! You are at risk of getting diabetes.  You need to lose weight. Please see your new diet suggestion below."
+            myMessage = "Your BMI is " + bmi + "! You are at risk of getting diabetes.  You need to lose weight. Follow the recommended diet plan below."
         } else if ((bmi < 23) && (bmi > 18) && (waist > 90)) {
             myMessage = "Your BMI is " + bmi + ". But check your stats and input again."
         } else if ((bmi < 23) && (bmi > 18) && (waist < 90)) {
@@ -44,16 +46,16 @@ function submitInfo() {
         } else if ((bmi < 18) && (waist > 90)) {
             myMessage = "Your BMI is " + bmi + ". But check your stats and input again."
         } else if ((bmi < 18) && (waist < 90)) {
-            myMessage = "Your BMI is " + bmi + ". YOu need to increase your weight.  Please see your new diet suggestion below."
+            myMessage = "Your BMI is " + bmi + ". You need to increase your weight.  We will come back with your new diet plan."
         } else {
             myMessage = "unchecked male condition"
         }
     }
     if (sex == "Female") {
         if ((bmi > 23) && (waist => 80)) {
-            myMessage = "RED ALERT - your BMI is " + bmi + "! You are at a high risk of getting diabetes. You need to urgently lose weight. Please see your new diet suggestion below."
+            myMessage = "RED ALERT - your BMI is " + bmi + "! You are at a high risk of getting diabetes. You need to urgently lose weight. Follow the recommended diet plan below."
         } else if ((bmi > 23) && (waist < 80)) {
-            myMessage = "Your BMI is " + bmi + "! You are at risk of getting diabetes.  You need to lose weight. Please see your new diet suggestion below."
+            myMessage = "Your BMI is " + bmi + "! You are at risk of getting diabetes.  You need to lose weight. Follow the recommended diet plan below."
         } else if ((bmi < 23) && (bmi > 18) && (waist > 80)) {
             myMessage = "Your BMI is " + bmi + ". But check your stats and input again."
         } else if ((bmi < 23) && (bmi > 18) && (waist < 80)) {
@@ -61,15 +63,21 @@ function submitInfo() {
         } else if ((bmi < 18) && (waist > 80)) {
             myMessage = "Your BMI is " + bmi + ". But check your stats and input again."
         } else if ((bmi < 18) && (waist < 80)) {
-            myMessage = "Your BMI is " + bmi + ". YOu need to increase your weight.  Please see your new diet suggestion below."
+            myMessage = "Your BMI is " + bmi + ". You need to increase your weight.  We will come back with your new diet plan."
         } else {
-            alert("unchecked female condition")
+            alertmyMessage = ("unchecked female condition")
         }
     }
 
     document.getElementById("feedback").innerText = myMessage;
 
-    document.getElementById("diet").innerText = diets[Math.floor(Math.random()*4)]; 
+
+
+    document.getElementById("diet").innerText = diets[Math.floor(Math.random()*4)];  
+
+
+
+
 }
 
 
