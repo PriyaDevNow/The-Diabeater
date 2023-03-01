@@ -33,6 +33,9 @@ function submitInfo() {
         sex = document.getElementById("female").value
     }
 
+  
+
+
 
     let bmi = (Math.floor(weight / ((height * height) / 10000)))
 
@@ -42,13 +45,13 @@ function submitInfo() {
         if ((bmi >= 23) && (waist >= 90)) {
             myMessage = "RED ALERT - your BMI is " + bmi + "! You are at a high risk of getting diabetes. You need to urgently lose weight. Follow the recommended diet plan below."
             
-            //place a random recipe in the "diet" paragraph of the html
+            //place a random diet plan in the "diet" paragraph of the html
             document.getElementById("diet").innerText = thousanddiets[Math.floor(Math.random()*2)]
  
         } else if ((bmi >= 23) && (waist < 90)) { 
             myMessage = "Your BMI is " + bmi + "! You are at risk of getting diabetes.  You need to lose weight. Follow the recommended diet plan below.";
 
-            //place a random recipe in the "diet" paragraph of the html
+            //place a random diet plan in the "diet" paragraph of the html
             document.getElementById("diet").innerText = twelvehundreddiets[Math.floor(Math.random()*2)]
 
         } else if ((bmi < 23) && (bmi >= 18) && (waist >= 90)) {
@@ -67,13 +70,13 @@ function submitInfo() {
         if ((bmi >= 23) && (waist >= 80)) {
             myMessage = "RED ALERT - your BMI is " + bmi + "! You are at a high risk of getting diabetes. You need to urgently lose weight. Follow the recommended diet plan below."
 
-            //place a random recipe in the "diet" paragraph of the html
+            //place a random diet plan in the "diet" paragraph of the html
             document.getElementById("diet").innerText = thousanddiets[Math.floor(Math.random()*2)]
 
         } else if ((bmi >= 23) && (waist < 80)) {
             myMessage = "Your BMI is " + bmi + "! You are at risk of getting diabetes.  You need to lose weight. Follow the recommended diet plan below."
 
-            //place a random recipe in the "diet" paragraph of the html
+            //place a random diet plan in the "diet" paragraph of the html
             document.getElementById("diet").innerText = twelvehundreddiets[Math.floor(Math.random()*2)]
 
         } else if ((bmi < 23) && (bmi >= 18) && (waist >= 80)) {

@@ -223,8 +223,6 @@ The footer always shows the miniature form of the logo, the copyright label and 
 ## Future Features  
 
 - For future development, I would like to be able to:
-  Users will then have access to create their weekly diet plans within the parameters suggested by The Diabeater (this requires API integration of the Recipe database from Edamam) and view live prices for a shopping trolley made up of the main ingredients of the recipes in their chosen diet plan (this requires API integration to a major UK supermarket).  
-
  * include the ability for a user to set up their account on The Diabeater.   
  * create functionality so that users will then have access to create their weekly diet plans within the parameters suggested by The Diabeater  - this requires API integration of the Recipe database from Edamam into The Diabeater
  * view live prices for a shopping trolley made up of the main ingredients of the recipes in their chosen recipes in the weekly diet plan  - this requires an API integration from a major UK supermarket.
@@ -299,12 +297,11 @@ The results of the form feature testing are as follows:
  
 ### **HTML Validation using W3C Validation**  
 <details open>
-<summary>Index/landing page HTML validation</summary>  
+<summary>Landing page HTML validation</summary>  
 
-![screenshot of HTML5 validation](docs/HTML%20validation.png)
+![screenshot of HTML5 validation](docs/validator.w3.org_nu_.png)
 </details>   
-
-- All the pages passed the W3C HTML validation.
+- The W3C HTML validation was passed.
 
 <br>  
 
@@ -313,8 +310,9 @@ The results of the form feature testing are as follows:
 <details open>
 <summary>CSS validation</summary>  
 
-![screenshot of CSS3 validation](docs/CSS%20Validation.png)
+![screenshot of CSS3 validation](docs/validator.w3.org_nu1.png)
 </details>   
+ - The W3C CSS validation was passed.
 
 <br>  
 
@@ -323,8 +321,9 @@ The results of the form feature testing are as follows:
 <details open>
 <summary>Javascript validation</summary>  
 
-![screenshot of JS validation](docs/CSS%20Validation.png)
+![screenshot of JS validation](docs/JSValidator.png)
 </details>   
+ - The Javascript JSHint validation was passed.
 
 <br>  
 
@@ -332,72 +331,18 @@ The results of the form feature testing are as follows:
   
 For Desktop   
 <details>
-<summary>Lighthouse audit for Home page</summary>  
+<summary>Lighthouse audit The Diabeater landing page</summary>  
 
-![screenshot of Lighthouse audit for Home Page](docs/Lighthouse%20Desktop%20Home%20Page%20Metric.png)
+![screenshot of Lighthouse audit for landing page](docs/project2Lighthouse.png)
 </details> 
-
-<details >
-<summary>Lighthouse audit for Cobalt Building page</summary>  
-
-![screenshot of Lighthouse audit for Cobalt Building page](docs/Lighthouse%20Desktop%20Cobalt%20Building%20Page%20Metric.png)
-</details>
-
-<details >
-<summary>Lighthouse audit for Location page</summary>  
-
-![screenshot of lighthouse audit for Location page](docs/Lighthouse%20Desktop%20Location%20metric.png)
-</details>      
-
-<details >
-<summary>Lighthouse audit for History page</summary>  
-
-![screenshot of lighthouse audit for History page](docs/Lighthouse%20Desktop%20History%20metric.png)
-</details> 
-
-<br>
   
-For Mobile   
-<details>
-<summary>Lighthouse audit for Home page</summary>  
-
-![screenshot of Lighthouse audit for Home Page](docs/Lighthouse%20Mobile%20Home%20Page%20metric.png)
-</details> 
-
-<details >
-<summary>Lighthouse audit for Cobalt Building page</summary>  
-
-![screenshot of Lighthouse audit for Cobalt Building page](docs/Lighthouse%20Mobile%20Cobalt%20Building%20metric.png)
-</details>
-
-<details >
-<summary>Lighthouse audit for Location page</summary>  
-
-![screenshot of lighthouse audit for Location page](docs/Lighthouse%20Mobile%20Location%20metric.png)
-</details>      
-
-<details >
-<summary>Lighthouse audit for History page</summary>  
-
-![screenshot of lighthouse audit for History page](docs/Lighthouse%20Mobile%20History%20metric.png)
-</details>
-
 <br>
   
 ### **Bugs & Fixes**  
   
-  - There were a number of bugs which I fixed during the build phase and the two main ones are as below.
-
-| Bug | Section | Fix |
-| :----| :----| :--------:|
-| Nesting button element in an anchor element | Navigation Bar | When running the W3C validation test, I discovered that I had made an error by placing a button element inside an anchor element for the Leaseholder Portal button. Semantically, this was incorrect. I was trying to put a hyperlink in a button.  The options to solve this were presented in this [article](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link#:~:text=You%20can%20use%20the%20OnClick,to%20define%20the%20link%20address.) and I changed the code as per Option 1.  I re-checked my HTML code with W3C Validator and my site to find the issue resolved. |
-| br element in li element  | Footer |  Semantically I made an error by using the br element to make space between the social icons in the footer. On performing the W3C validation test, I became aware of this error. I experimented by (1) putting separate divs for each social media icon and (2) putting each social media item in a separate ul and li combination.  Option (2) worked and the W3C Validator passed my HTML code.|
-
-### **Unsolved Bugs** 
-
-- Some of the Location page masonry images lie on top of the footer when this page is opened first.  I have not managed to understand why this happens so I will keep researching to solve this issue.
-- I was not able to make the the Leaseholder Portal button in the navigation bar fully responsive so I had to remove it for smaller screen views.  I will try to find out the reason for this and then find a solution.
-- The footer responsiveness also needs to be improved so that all the 4 columns fit for all screen views.  I will continue to look for a solution for this.  
+- There were a number of bugs which I fixed during the build phase but I have not been able to resolve the below.
+- The form requires either one of the Gender buttons to be checked before submission.  I researched how this would be achieved and came across the following article on Stackoverflow [article]https://stackoverflow.com/questions/22238368/how-can-i-require-at-least-one-checkbox-be-checked-before-a-form-can-be-submitte).  I tried to implement the solution of 7 MArch 2014 but was not successful.  I will work throgh this again to see if I can find the solution for validation of the form for the radio buttons. 
+- I also need to do further research so as to imporve the responsivity of some of the aspects of the landing page for the smaller screens.
 
 <br>
 ---  
@@ -406,37 +351,16 @@ For Mobile
   
 ### **Content References**
 - All the content for the website has been written by myself, based on my extensive research
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML, CSS, & Bootstrap learning material
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML, CSS, Javascript & Bootstrap learning material
 - [W3Schools](https://www.w3schools.com/) for additional learning material
-- [Bootstrap example for masonry](https://getbootstrap.com/docs/5.0/examples/masonry/)
-- [Codepen](https://codepen.io/Maxalos/pen/MXXqGj) for the stylish vertical responsive timeline
-- Fred Rodgers – a neighbour and long-term Barbican resident who provided his paper on the history of the Barbican Wildlife Garden and pointed out further resources to me
-- Jonathan Spengler who pointed me to Caroline Sandes' 2018 academic paper on the THE BARBICAN BEFORE BARBICAN: THE HOUSE, ITS HISTORY AND THE ‘IMAGINARY’ WATCHTOWER
-- Amy Richardson - developer of SCOOPS website - for README structure
-  
-### **Media References**  
-  
-- [London Metropolitan Archives](https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives)
-- [British Museum](https://www.britishmuseum.org/)
-- [British History Online]( https://www.british-history.ac.uk/)
-- [The interactive Ogilby & Morgan Large Scale Map of London as Rebuilt in 1676](https://www.british-history.ac.uk/no-series/london-map-ogilby-morgan/1676) 
-- [The interactive MOEM AGAS Map](https://mapoflondon.uvic.ca/map.htm)
-- [Old & New London by Thornbury & Edmond book](https://www.british-history.ac.uk/old-new-london/vol1/pp1-16)
-- The 1995 Marketing Brochure for the Cobalt Building
-- [Dexters estate agents' photos of apartments for rent in Bridgewater Square](https://www.dexters.co.uk/property-lettings/flats-to-rent-in-bridgewater-square)
-- [Dreamtime city of London panorama photo](https://www.dreamstime.com/stock-photo-city-london-panorama-image46882167)
-- [Google Maps](https://www.google.com/maps) for the map used in this website
+- [Know Diabetes](https://www.knowdiabetes.org.uk/) for the 7 day meal plans
 
-### **Acknowledgements** 
+### **Media References**
+- Researchgate
+- Unsplash
 
-- I would like to express my deepest gratitude to our Bootcamp instructor Richey Malhotra for his patience and guidance and most of all for setting me up with the stylised hero image for the home page of this website.
-- I am grateful for the support and help given by my Bootcamp cohort colleagues Rob, Rosie and Sharon for debugging and design.   
-- I am thankful to WAES and the Code Institute for providing this unique opportunity for me to upskill and learn Digital Skills.
-- Last but not least, I am grateful to my sister for looking after our parents so that I have been able to devote time to learning the technology and creating this website.
+### **Acknowledgement** 
 
-### **Reflections** 
+- I would like to express my deepest gratitude to our Bootcamp instructor Richey Malhotra for his patience and help with the Javascript coding.  
 
-- This is my first website project from scratch.  
-- Initially, I found it a giant task as a) none of my code would work and b) I was researching the subject matter as I wanted to create a meaningful and value-adding publically available website.  However, following the principles as taught on this Bootcamp to date (Jan 2023) and once the home page began to take shape, my confidence in coding and using Bootstrap grew.  I was then able to work through the rest of the website more comfortably.  However, I did decide, to build a demo site first and then copied that across to this site (therefore my commits are fewer here).  
-- I have learnt how important patience and systematic thinking are for software development and that such an approach does indeed deliver results.  
-- I am also tremendously pleased and excited that the website fully reflects the vision I had of it at the beginning of this project!      
+    
