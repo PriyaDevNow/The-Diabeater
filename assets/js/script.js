@@ -5,7 +5,7 @@ var thousanddiets = [
     "RECOMMENDED DIET: 12 weeks; Intermittent fasting: 16/8; 1000 daily calories. Click below to see your sample weekly diet plan."
 ];
 
-var twelvehundreddiets =[
+var twelvehundreddiets = [
     
     "RECOMMENDED DIET: 12 weeks; No wheat/rice/cheeses/fried foods/added sugar/alcohol; 1200 daily calories. Click below to see your sample weekly diet plan.",
     "RECOMMENDED DIET: 12 weeks; 1000 daily calories. Click below to see your sample weekly diet plan."

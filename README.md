@@ -27,8 +27,9 @@ The Diabeater is an interactive tool for South Asians to assess their risk of ge
   * [Imagery](#imagery)
 * [Page Features](#page-features)
   * [Navigation Bar](#navigation-bar)
-  * [Hero Image](#hero-image)
+  * [Card Facts](#card-facts)
   * [Form](#form)
+  * [Solutions](#solution)
   * [Footer](#footer)
 * [Desktop & Mobile View](#desktop--mobile-view)
   * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
@@ -122,7 +123,7 @@ The Diabeater is a digital tool for South Asians to diagnose their risk of getti
 
 - I did a Google search to identify the current vogue 'diet' colors and then used [Adobe Color](https://www.adobe.com/uk/products/color.html) to generate the palette used in The Diabeater.  
 
-![Colour theme swatch](docs/fonts.google.com_specimen_Quicksand.png)
+![Colour theme swatch](docs/AdobeColor-MyColorTheme.jpg)
 
 - An integrated play of 4 main colours of the colour palette has been made throughout the landing page and one colour reserved as the background colour for the logo.  These pastel colours are soothing and encouraging and totally captivate the user to engage and then spur them to make transformational changes - even those who've only ever had a fleeting thought on how to fight the diabetes disease.  
 
@@ -149,26 +150,26 @@ The Diabeater is a digital tool for South Asians to diagnose their risk of getti
 <details open>
 <summary></summary>  
 
-#### **Desktop View** ![screenshot of Desktop navbar](docs/Navbar%20Desktop.png) 
+#### **Desktop View** ![screenshot of Desktop navbar](docs/Navigation_bar.png) 
 
-#### **Mobile View** ![screenshot of Mobile navbar](docs/Navbar%20Mobile.png) 
+#### **Mobile View** ![screenshot of Mobile navbar](docs/Project2navigationmobile.png) 
 </details>
-This remains the same across the four pages, in portrait/landscape and mobile/tablet views, except that the Leaseholder Portal button appears on desktop view only.
+This remains the same in portrait/landscape and mobile/desktop views.  However, the tagline is only partly responsive in the mobile view as it does not center on the screen.
   
 <br>  
 
-### **Hero Image** 
+### **Card Facts** 
 
 <details open>  
 <summary></summary>
 
 #### **Desktop View** 
-![screenshot of Desktop hero image](docs/Desktop%20-%20Hero%20Image.png) 
+![screenshot of Desktop view Card Facts](docs/CardfactsProject2.png) 
 
 #### **Mobile View** 
-![screenshot of Mobile hero image](docs/Mobile%20-%20Hero%20Image.png)
+![screenshot of Mobile view Card Facts](docs/cardfactsMobileProject2.png)
 </details>
-The striking hero image remains the same across all devices, in portrait/landscape and mobile/desktop views with it becoming square-shaped and ‘The Cobalt’ label disappearing for smaller screens.  
+The card facts sections remains the same across all devices, in portrait/landscape and mobile/desktop views.  The columns become slimmer for smaller screens.  
 
 <br> 
 
@@ -178,20 +179,41 @@ The striking hero image remains the same across all devices, in portrait/landsca
 <summary></summary>
 
 #### **Desktop View** 
-![screenshot of Desktop headlines image](docs/Desktop%20-%20Headline.png) 
-The headlines pull out the key features of the Cobalt Building in all devices.  It is shown as a single band on large screens which becomes a 2 by 2 on smaller screens.  
+![screenshot of Desktop view Form](docs/formDesktop.png) 
 
+#### **Mobile View** 
+![screenshot of Mobile view Form](docs/formMobile.png) 
+
+The form section requires input in all fields and checking of one of the radio buttons.  Once the Submit button is pressed, the Javascript code runs which provides the feedback as below:
+
+#### **Desktop View** 
+![screenshot of Desktop view of output once Form submitted ](docs/DesktopFormfilled.png) 
 <br> 
 
+### **Solutions**
+<details open>
+<summary></summary>
+
+#### **Desktop View**
+![screenshot of Solutions](docs/SolutionsDesktop.png)
+
+#### **Mobile View**
+![screenshot of Solutions](docs/SolutionsMobile.png)
+
+The content is the same for portrait/landscape views and for all screen sizes but for repsosnivity it stacks vertically for smaller screens.
 
 ### **Footer**  
 <details open>
 <summary></summary>
 
 #### **Desktop View** 
-![screenshot of footer](docs/Desktop%20-%20Footer.png) 
+![screenshot of footer](docs/FooterDesktop.png) 
+
+#### **Mobile View** 
+![screenshot of footer](docs/FooterMobile.png) 
+
 </details>
-The footer always shows the address of the Cobalt Building in all screen views.  It expands to show the Contact form and card for the Resident Management Company and the Property Manager respectively, social media icons and Acknowledgements.  
+The footer always shows the miniature form of the logo, the copyright label and social media icons and is responsive.    
 
 <br>
 
