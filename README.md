@@ -5,7 +5,7 @@ The Diabeater is an interactive tool for South Asians to assess their risk of ge
 
 <br>  
   
-![screenshot of landing page](/docs/Landing-Page-The-Cobalt-Building-London.png)
+![screenshot of landing page](docs/Landing_page.png)
 
 
 ---
@@ -28,12 +28,8 @@ The Diabeater is an interactive tool for South Asians to assess their risk of ge
 * [Page Features](#page-features)
   * [Navigation Bar](#navigation-bar)
   * [Hero Image](#hero-image)
-  * [Headline](#headline)
+  * [Form](#form)
   * [Footer](#footer)
-  * [Home Page](#home-page)
-  * [Cobalt Building Page](#cobalt-building-page)
-  * [Location Page](#location-page)
-  * [History Page](#history-page)
 * [Desktop & Mobile View](#desktop--mobile-view)
   * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
 * [Future Features](#future-features)
@@ -58,29 +54,21 @@ The Diabeater is an interactive tool for South Asians to assess their risk of ge
 
 ### **Primary Goal**  
   
-The Cobalt Building is a luxury residential block with 59 apartments in Bridgewater Square, London.   The aim of this website is to showcase the building and the history of the area.  It needed a strong, succinct and striking website design that reflected the building’s attributes and the area’s importance in the development of the City of London. 
+The Diabeater is a digital tool for South Asians to diagnose their risk of getting diabetes and the measures they should take to alleviate this risk.
 
 ### **Visitor Goals** 
 
-- The website is intended to be accessed by two diverse sets of visitors:
+- The website is intended to be accessed by South Asians seeking to make a quick health risk assessment. 
+ 
+- Keeping the above in mind, the website is straight to the point and easy to navigate for those seeking information about the building, its location and the history of the area. 
 
-1.  Building residents:-
-  *	Apartment owners – to access the Leaseholder Portal containing the building policies and service charge accounts of the individual apartment owner
-  *	Tenants – over 80% of the apartments are tenanted by City professionals and students with an average tenant turn-around of two years.  So it was important to clearly set out the attractiveness of the Cobalt Building in terms of location and amenities and the history of the area. 
-   
-2. History lovers - Bridgewater Square is often overshadowed by its neighbour, the iconic Barbican Estate.  This website attempts to redress that and invites users to visit Bridgewater Square.   This additional set of visitors was identified when the user performas were generated. 
-
-- Keeping the above, the website is straight to the point and easy to navigate for those seeking information about the building, its location and the history of the area. 
-
-- The website has been designed to be responsive to allow visitors to view it from a range of devices with one page flowing seamlessly into another so as to keep the users engaged on each page.   
+- The website has been designed to be responsive to allow visitors to view it from a range of devices, especially mobiles and smartphones. 
 
 ### **First Time Visitor**
-- A user can access each page of the site with one click via the navigation bar or by scrolling down the respective sections on the landing page.
-- A user can see the address of the building in the footer.
+- A user can access the interactive diabetes risk assessment form whic is located halfway down on the landing page.  
 
 ### **Returning Visitor**  
-- The returning visitor is one who is seriously interested in the building e.g. as a potential tenant or history lover.  
-- Such a user is likely to use a device larger than a mobile.  They will be able to find more relevant information in the footer e.g. social media links, contact form for the Resident Management Company and the contact card for the Property Manager; an apartment owner will  see the Leaseholder Portal button on the navigation bar; a history student can find links for the sources of information collated on this website for further study.
+- Visitors are encouraged to return to the site and regularly check their diabetes risk assessment.  When the new diet recipe module is up and running the users will be able to generate their weekly diet plans and so engage further with the website.     
   
 --- 
 
@@ -88,7 +76,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
   
 ### **1. Strategy**  
 
-- The strtaegy was to build an easy-to-click & follow, simple, non-intimidatory website that delivers clear information about diabetes and measures that the user should take to prevent it.  
+- The strategy was to build an easy-to-click & follow, simple, non-intimidatory website that delivers clear information about diabetes and measures that the user should take to prevent it.  
 - As the user is required to interact with the tool, the entire website needed to be inviting, with the use of consistent and neat design, graphics, precise wording and colour.  
 - Mobile responsiveness is an essential feature required for this website.
   
@@ -115,11 +103,11 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 - The landing page ends with the footer, which shows the logo and copyright label on the left and the social media links on the righ.
    
 
-### Wireframes  
+### Wireframe 
 <details open>
-<summary>Wireframe for the 4 pages of the webite - Desktop view</summary>  
+<summary>Wireframe of the landing page</summary>  
 
-![Wireframe of the 4 pages- Desktop](docs/Wireframes.jpg)
+![Wireframe](docs/Project2wireframe.jpg)
             
 
 ### **5. Surface**  
@@ -134,9 +122,9 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 
 - I did a Google search to identify the current vogue 'diet' colors and then used [Adobe Color](https://www.adobe.com/uk/products/color.html) to generate the palette used in The Diabeater.  
 
-![Colour theme swatches](.docs/AdobeColor-My Color Theme (2).jpg) 
+![Colour theme swatch](docs/fonts.google.com_specimen_Quicksand.png)
 
-- An integrated play of 4 main colours of the colour palette was done throughout the landing page and one colour reserved as the background colour for the logo.  These pastel colours are soothing and encouraging and totally captivate the user to make transformational changes - even those who've only had a fleeting thought on how to fight the diabetes disease.  
+- An integrated play of 4 main colours of the colour palette has been made throughout the landing page and one colour reserved as the background colour for the logo.  These pastel colours are soothing and encouraging and totally captivate the user to engage and then spur them to make transformational changes - even those who've only ever had a fleeting thought on how to fight the diabetes disease.  
 
   
 ### **Typography**  
@@ -148,13 +136,9 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
         
 ### **Imagery**  
   
-- I have used different types of imagery so as to remain authentic about the website.  I have used:
-  *	Historic photos from books and archives
-  * Historic maps - some of which have been made dynamic with modern technology which helped me get a snapshot of the precise area covered in the website
-  * Modern photos from the marketing brochure for the Cobalt building which was published in 1995
-  * Publicly available photos of apartment interiors from estate agent websites marketing apartments available for sale and rent at the Cobalt Building
-  *	Royalty free stock images
-  * Bootstrap icons
+- I have used minimal imagery so as not to visually overload the user and focused mainly on modern universally known icons: 
+  *	3 royalty free images 
+  * Fontawesome icons
 - I have attributed the sources of the images used in the [Credits](#credits) section of this README doc.
 
 ---  
@@ -188,7 +172,7 @@ The striking hero image remains the same across all devices, in portrait/landsca
 
 <br> 
 
-### **Headline** 
+### **Form** 
 
 <details open>  
 <summary></summary>
@@ -211,62 +195,6 @@ The footer always shows the address of the Cobalt Building in all screen views. 
 
 <br>
 
-### **Home Page**  
-<details> 
-<summary></summary>
-
-#### **Desktop View**
-![screenshot of Desktop Home Page](docs/Desktop%20-%20Landing%20Page.png)  
-
-#### **Mobile View** 
-![screenshot of Mobile Home Page](docs/Mobile%20-%20Landing%20Page.png)  
- 
-</details>
-Small sound-bytes of text with clear headings are accompanied by striking images that reflect the heading. There are links to each of the 3 other pages under the images.  the In mobile view, these sections are displayed in a column and the images and liks to the other 3 pages are not displayed.   
-
-<br>
-  
-### **Cobalt Building Page** 
-<details>
-<summary></summary> 
-
-#### **Desktop View**
-![screenshot of Desktop Cobalt Building Page](docs/Desktop%20-%20Cobalt%20Building%20page.png)  
-
-#### **Mobile View** 
-![screenshot of Mobile Cobalt Building Page](docs/Mobile%20%20-%20Cobalt%20Building%20page.png)
-</details>
-The masonry layout occupies the whole page, against the yellow (#FFBF69) background (which is the exterior colour of the Cobalt Building).  Images and stylised text draw out the main attributes of the building and apartments.  The masonry layout automatically rearranges the cards to optimise the viewing experience from different size device screens.  It switches from a 3 column large screen view to a single column for mobile view.  The masonry card display automatically re-arranges on each click of the page.
-
-<br>
-
-### **Location Page**  
-<details>
-<summary></summary> 
-
-#### **Tablet View** 
-![screenshot of Location page](docs/Tablet%20View%20-%20Location%20Page.png)  
-
-</details>
-- There are two sections. 
-- The first part consists of places in the neighbourhood of the Cobalt Building grouped together in 4 categories.  The 4 categories are then set in a 2 row by 2 in each row format.  Each category is shown by an icon and text describing each of 4 categories.  The icon is positioned to the left of the text for desktop/tablet views and switches to center in single columnar format for mobile view.   
-
-- The second section shows an embedded interactive Google Map sitting in a row.  The smallest width of this page is limited by the size of the Google Map.  
-
-<br>
-
-### **History Page**  
-<details>
-<summary></summary> 
-
-#### **Desktop View**
-![screenshot of Desktop History Page](docs/Desktop%20-%20History%20Page.png)  
-
-#### **Mobile View** 
-![screenshot of Mobile History Page](docs/Mobile%20-%20History%20Page.png) 
-</details>
-- A stylised vertical time line is shown here with image and text on either side of a central dot arranged diametrically.  This is for larger screens.  This changes to a single columnar format of text and image for mobile views.  
-- The timeline is split into 6 sections from 1 AD.   
 
 <br>
 
@@ -302,18 +230,20 @@ The masonry layout occupies the whole page, against the yellow (#FFBF69) backgro
 
 - HTML5
 - CSS3
+- Javascript
 
 ### **Frameworks, Libraries, Technologies & Programs Used**  
 
 - Bootstrap version 5.2.3 – examples and icons – these assisted with styling and responsiveness of website
+- Fontawesome icons
+- Freesvg icons
 - Stockoverflow – to look up code
 - W3 Schools – to look up code
 - Gitpod - used for version control by utilising the Gitpod terminal to commit and push to GitHub
 - GitHub - used to save and store all files for this website after being pushed from Gitpod
 - Userpersona - to generate typical users of this website and ensure their pain points were alleviated by the website
-- Figma – I tried to use it to create wireframes but found it difficult so resorted to pen and paper 
-- Coolors – for colour palettes
-- Adobe Color – for accessibility contrast ratios
+- Figma – I tried to use it to create wireframes but found it difficult in the timeframe for this project so resorted to pen and paper 
+- Adobe Color – for colour palettes
 - Canva – for designing the logo
 - Google Fonts – font was imported from here 
 - Google Dev Tools - to debug and for testing responsiveness 

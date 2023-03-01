@@ -1,7 +1,18 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #a6beba;
-    
+    background-color: #a6beba;   
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
 }
 
 /* NAV */
@@ -10,27 +21,28 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:hover{
-    color: #808080;
+    color: #a6beba;
 }
 
 .navbar {
     flex-direction: column;
 }
 
-
-h2.tagline {
+.tagline {
     font-size: 1.5rem;
-    margin: 0px; auto;
-    justify-content: center;
+    margin: 0px; 
+    justify-content: center;   
 }
+
 /* CARDS of FACTS */
 .card {
 background-color: #62314a;
 }
+
 .card-body {
 color: #ebbad2;
-
 }
+
 .card-img-top {
     width: 100%;
     height: 30vw;
@@ -50,18 +62,14 @@ color: #ebbad2;
 }
 
 /* SURVEY */
-
-
 .survey {
     background-color: #d9b19b;
     color: #62314a;
     border: solid #62314a;
     text-align: center;
     justify-content: left;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
-
 
 .feedback-given {
     color:#62314a;
@@ -71,7 +79,7 @@ color: #ebbad2;
 }
 
 .diettype {
-    display: flex;
+    color: #62314a;
     justify-content: center;
     gap: 200px;
 }
