@@ -31,8 +31,6 @@ The Diabeater is an interactive tool for South Asians to assess their risk of ge
   * [Form](#form)
   * [Solutions](#solution)
   * [Footer](#footer)
-* [Desktop & Mobile View](#desktop--mobile-view)
-  * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
 * [Future Features](#future-features)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -42,6 +40,7 @@ The Diabeater is an interactive tool for South Asians to assess their risk of ge
 * [Testing](#testing)
   * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
   * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
+  * [JavaScript Validation using JSHint](#js-validation-using-JSHint)
   * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
   * [Bugs & Fixes](#bugs--fixes)
   * [Unsolved Bugs](#unsolved-bugs)
@@ -101,7 +100,7 @@ The Diabeater is a digital tool for South Asians to diagnose their risk of getti
 - The next section highlights information about diabetes set out in 3 card styles with image top and text bottom - pattern reversed for the middle card.  
 - This leads to the form to be completed by the user and empty space which gives feedback.
 - The next section sets out examples of diabetes-beating diets and other helpful tips.  
-- The landing page ends with the footer, which shows the logo and copyright label on the left and the social media links on the righ.
+- The landing page ends with the footer, which shows the logo and copyright label on the left and the social media links on the right.
    
 
 ### Wireframe 
@@ -184,7 +183,7 @@ The card facts sections remains the same across all devices, in portrait/landsca
 #### **Mobile View** 
 ![screenshot of Mobile view Form](docs/formMobile.png) 
 
-The form section requires input in all fields and checking of one of the radio buttons.  Once the Submit button is pressed, the Javascript code runs which provides the feedback as below:
+The form section requires input in all fields and checking of either one of the radio buttons.  Once the Submit button is pressed, the Javascript code runs which provides the feedback as below:
 
 #### **Desktop View** 
 ![screenshot of Desktop view of output once Form submitted ](docs/DesktopFormfilled.png) 
@@ -213,25 +212,10 @@ The content is the same for portrait/landscape views and for all screen sizes bu
 ![screenshot of footer](docs/FooterMobile.png) 
 
 </details>
-The footer always shows the miniature form of the logo, the copyright label and social media icons and is responsive.    
+The footer always shows the miniature form of the logo, the copyright label and social media icons and is responsive for all views.    
 
 <br>
 
-
-<br>
-
----   
-
-
-## Desktop & Mobile View  
- 
-### **Desktop, Tablet & Mobile Differences**  
-  
-- As most of the website code was imported from Bootstrap there was already good in-built responsivity across various screens. I had to make minimal adjustments to improve this.  
-- However, I had to compromise by making some of the elements in the navigation bar, footer and hero image disappear for mobile views as I was not successful in styling these for responsivity.  
-- See image below of the website as displayed on desktop, laptop, tablet and mobile screens from [Am I Responsive](https://ui.dev/amiresponsive)     
-  
-![screenshots of website on Am I Responsive](docs/ui.dev_amiresponsive_.png)
 
 ---  
                               
@@ -239,9 +223,11 @@ The footer always shows the miniature form of the logo, the copyright label and 
 ## Future Features  
 
 - For future development, I would like to be able to:
- * show all of the footer and the button to the Leaseholder Portal in the navigation bar on all screen sizes    
- * put an embedded video showing a tour around the present Bridgewater Square
- * show testimonials from site visitors
+  Users will then have access to create their weekly diet plans within the parameters suggested by The Diabeater (this requires API integration of the Recipe database from Edamam) and view live prices for a shopping trolley made up of the main ingredients of the recipes in their chosen diet plan (this requires API integration to a major UK supermarket).  
+
+ * include the ability for a user to set up their account on The Diabeater.   
+ * create functionality so that users will then have access to create their weekly diet plans within the parameters suggested by The Diabeater  - this requires API integration of the Recipe database from Edamam into The Diabeater
+ * view live prices for a shopping trolley made up of the main ingredients of the recipes in their chosen recipes in the weekly diet plan  - this requires an API integration from a major UK supermarket.
   
 ---   
   
@@ -264,13 +250,14 @@ The footer always shows the miniature form of the logo, the copyright label and 
 - Gitpod - used for version control by utilising the Gitpod terminal to commit and push to GitHub
 - GitHub - used to save and store all files for this website after being pushed from Gitpod
 - Userpersona - to generate typical users of this website and ensure their pain points were alleviated by the website
-- Figma – I tried to use it to create wireframes but found it difficult in the timeframe for this project so resorted to pen and paper 
+- Figma – I did not have the time to use this given the tight project deadline so I sketched the wirteframe using pen and paper 
 - Adobe Color – for colour palettes
 - Canva – for designing the logo
 - Google Fonts – font was imported from here 
 - Google Dev Tools - to debug and for testing responsiveness 
 - Google Lighthouse - for auditing the website
 - W3C Validator - for validating the HTML and CSS code 
+- JSHint - for validating the Javascript code
 
 ---   
  
@@ -282,7 +269,7 @@ The footer always shows the miniature form of the logo, the copyright label and 
 GitHub was used to deploy the website. These were the steps taken to achieve this:  
 
 1. Login to GitHub account
-2. Navigate to the project repository: The-Cobalt-Building-London
+2. Navigate to the project repository: The-Diabeater
 3. Click the Settings button near the top of the page
 4. In the left-hand menu, find and click on the Pages button
 5. In the Source section, choose 'main' from the drop-down, select branch menu
@@ -296,30 +283,25 @@ GitHub was used to deploy the website. These were the steps taken to achieve thi
 
 ## Testing  
 
-- I had planned for this site to be accessible and legible on all screen sizes. 
+- I had planned for this site to be accessible and legible on all screen sizes, and given its current functionality, expecially on smaller screens of smartphones. 
 
 - I extensively used Chrome Dev Tools to test, tweak and debug throughout the build phase.  Testing was also done on desktop, laptop, iPhone and Android mobile devices.   
   
-The results of feature testing are as follows:  
+The results of the form feature testing are as follows:  
   
 | Page | Test | Pass/Fail |
 | :----| :----| :--------:|
-| All  | Cobalt Building logo links back to Home Page | Pass |
-| All  | Text colour changes to white in navigation bar items when the mouse hovers | Pass |
-| All  | Active navigation bar items are off-white text | Pass |
-| All  | Navigation links bring the user to relevant page | Pass |
-| All  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
-| All  | 'Contact' heading has a form and contact card which are responsive and functional | Pass |
-| All  | Images and sections are responsive in different media sizes | Pass |
-| History | History page text and images are clear and legible | Pass |
-| Location | Google Map is interactive and opens in a new tab for a larger map | Pass |
+| All  | Form input to be correctly populated | Pass |
+| All  | Javascript functionality and calculations being carried out | Pass |
+| All  | Feedback provided | Pass |
+| All  | Refresh of page resets the form | Pass |
 
  
 ### **HTML Validation using W3C Validation**  
 <details open>
 <summary>Index/landing page HTML validation</summary>  
 
-![screenshot of Home Page w3c html validation](docs/HTML%20validation.png)
+![screenshot of HTML5 validation](docs/HTML%20validation.png)
 </details>   
 
 - All the pages passed the W3C HTML validation.
@@ -331,7 +313,17 @@ The results of feature testing are as follows:
 <details open>
 <summary>CSS validation</summary>  
 
-![screenshot of CSS validation for the Cobalt Building website](docs/CSS%20Validation.png)
+![screenshot of CSS3 validation](docs/CSS%20Validation.png)
+</details>   
+
+<br>  
+
+### **JavaScript Validation using JSHint** 
+
+<details open>
+<summary>Javascript validation</summary>  
+
+![screenshot of JS validation](docs/CSS%20Validation.png)
 </details>   
 
 <br>  
