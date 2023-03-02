@@ -1,5 +1,5 @@
 # The Diabeater
-[View live project here on GitHub](https://priyadevnow.github.io/The-Cobalt-Building-London/)
+[View live project here on GitHub](https://priyadevnow.github.io/the-diabeater/)
 
 The Diabeater is an interactive tool for South Asians to assess their risk of getting Type 2 diabetes and then providing diet plans and other tips to transform their lifestyle.   
 
@@ -284,7 +284,7 @@ GitHub was used to deploy the website. These were the steps taken to achieve thi
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github](docs/github.com_PriyaDevNow_The-Cobalt-Building-London_settings_pages.png ) 
+![screenshot of how to deploy site on github]() 
 
 ---  
     
