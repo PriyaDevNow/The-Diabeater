@@ -373,6 +373,7 @@ For Desktop
 
 ### **Acknowledgement** 
 
-- I would like to express my deepest gratitude to our Bootcamp instructor Richey Malhotra for his patience and help with the Javascript coding for this project.  
+- I would like to express my deepest gratitude to our Bootcamp instructor Richey Malhotra for guiding me through the JavaScript coding for this project.  
+- This is my first project in JavaScript and it has shown me how this language can be powerfully used to provide immediate feedback for the benefit of users.
 
     
