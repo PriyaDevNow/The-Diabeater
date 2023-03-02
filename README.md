@@ -284,7 +284,7 @@ GitHub was used to deploy the website. These were the steps taken to achieve thi
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github]() 
+![screenshot of how to deploy site on github](docs/github.com_PriyaDevNow_The-Diabeater_settings_pages.png) 
 
 ---  
     
@@ -368,7 +368,7 @@ For Desktop
 
 ### **Media References**
 - Diabetes medical poster
--[Bigstock photos - subodhsathe](https://www.bigstockphoto.com/image-126974009/stock-photo-group-of-indian-food-or-indian-thali,-south-indian-thali,-south-indian-complete-meal,-south-indian-complete-lunch,-indian-food-platter-or-indian-food-thali)
+- [Bigstock photos - subodhsathe](https://www.bigstockphoto.com/image-126974009/stock-photo-group-of-indian-food-or-indian-thali,-south-indian-thali,-south-indian-complete-meal,-south-indian-complete-lunch,-indian-food-platter-or-indian-food-thali)
 - [Getty Images - triloks](https://www.istockphoto.com/photo/multi-generation-indian-family-running-at-park-gm1200879955-344137066)
 
 ### **Acknowledgement** 
