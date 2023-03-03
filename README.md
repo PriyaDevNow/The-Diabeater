@@ -348,7 +348,8 @@ For Desktop
 </details> 
   
 <br>
-  
+
+---  
 ### **Bugs & Fixes**  
   
 - There were a number of bugs which I fixed during the build phase but I have not been able to resolve the below.
